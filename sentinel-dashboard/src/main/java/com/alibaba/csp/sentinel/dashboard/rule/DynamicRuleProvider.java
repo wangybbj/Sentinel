@@ -22,4 +22,10 @@ package com.alibaba.csp.sentinel.dashboard.rule;
 public interface DynamicRuleProvider<T> {
 
     T getRules(String appName) throws Exception;
+
+    /**
+     * 修改规则，增加规则枚举参数
+     */
+//    T getRules(String appName, DynamicEnums.Rule rule) throws Exception;
+
 }
